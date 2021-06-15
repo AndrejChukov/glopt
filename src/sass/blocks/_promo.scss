@@ -1,0 +1,123 @@
+.promo {
+	position: relative;
+    height: 680px;
+    background: url(../img/fon1.jpg) center (center/cover) no-repeat;
+	&__logo {
+		img{
+			width: 95px;
+			height: 99px;
+			margin-right: 55px;
+			margin-top: 23px;
+	}
+}
+	&__header {
+		max-height: 122px;
+	}
+	&__menu {
+		display: flex;
+		justify-content: center;
+		padding-left: 0;
+		margin: 0;
+		list-style-type: none;
+		transform: translate(-125px,-68px);
+		&__link {
+			font-weight: 300;
+			font-size: 15px;
+			color: #ffffff;
+			text-decoration: none;
+			&:hover	{
+				text-decoration: none;
+				color: $main-color;
+			}
+		}
+		&__item{
+			border-right: 1px dotted white;
+			padding-left: 17px;
+			padding-right: 17px;
+			&:last-child {
+				border-right: none;
+			}
+		}
+	}
+	&__phone {
+		display: inline-block;
+		transform: translate(-166px, -108px);
+		&__call {
+			transform: translate(943px,5px);
+			font-size: 14px;
+			font-weight: 300;
+			text-align: right;
+			color: #ffffff;
+		}
+		&__tel {
+			width: 180px;
+			display: block;
+			transform: translateX(953px);
+			margin-right: 0;
+			font-size: 19px;
+			font-weight: 700;
+			color: #ffffff;
+			text-decoration: none;
+		}
+
+	}
+	h1 {
+		font-size: 24px;
+		font-weight: 300;
+		text-align: center;
+		color: #ffffff;
+	}
+	&__subheader {
+		width: 1028px;
+		transform: translate(57px, -11px);
+		font-size: 72px;
+		font-weight: 700;
+		text-align: center;
+		color: #ec644b;
+	}
+	&__subheader2 {
+		transform: translate(-2px, -43px);
+		font-size: 42px;
+		font-weight: 400;
+		text-align: center;
+		color: #ffffff;
+	}
+	&__hr1 {
+		width: 384px;
+		transform: translate(-210px, -19px);
+	}
+	&__hr2 {
+		width: 384px;
+		transform: translate(208px,-29px);
+	}
+	&__circle {
+		height: 10px;
+		width: 10px;
+		background: #fff;
+		border: none;
+		margin: 0 auto;
+		transform: translate(0px, -43px);
+		border-radius: 50%;
+	}
+	&__wrapper {
+		display: flex;
+		justify-content: space-around;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+		&__descr{
+			font-size: 16px;
+			font-weight: 300;
+			text-align: center;
+			color: #ffffff;
+			&_mt {
+				font-size: 16px;
+				font-weight: 300;
+				text-align: center;
+				color: #ffffff;
+				margin-top: 15px;
+			}
+		}
+	}
+}

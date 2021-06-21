@@ -1,0 +1,34 @@
+.reasons {
+  padding: 0 0 102px 0;
+  &__block {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+  }
+
+  &__round {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 20px;
+  }
+
+  &__descr {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    color: #3a3a3a;
+  }
+
+  &__subtitle {
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color:  $main-color;
+}
+  &__text {
+    display: block;
+    flex-direction: column;
+  }
+}

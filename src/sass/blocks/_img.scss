@@ -1,0 +1,13 @@
+.img {
+  display: block;
+  margin: 0 auto;
+  transform: translateY(58px);
+  padding: 21px 27px 30px;
+  border: solid 1px #ffffff;
+  border-radius: 50%;
+  &_orange {
+    transform: none;
+    border: solid 1px $main-color;
+    margin-top: 37px;
+  }
+}

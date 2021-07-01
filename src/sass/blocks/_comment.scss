@@ -1,0 +1,28 @@
+.comment {
+  padding-bottom: 65px;
+  &__subtitle {
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    color: #2e2e2e;
+  }
+  &__text {
+    width: 601px;
+    margin: 0 auto;
+    &_title {
+      transform: translate(226px, -4px);
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0 auto;
+      margin-top: 19px;
+    }
+    &_descr {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 300;
+      text-align: justify;
+      text-align-last: center;
+      color: #3a3a3a;
+    }
+  }
+}

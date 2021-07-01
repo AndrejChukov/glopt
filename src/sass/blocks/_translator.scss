@@ -1,0 +1,43 @@
+.translator {
+  padding-bottom: 97px;
+  &-item{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    &:last-child {
+      padding-right: 0;
+    }
+    &_text {
+      width: 257px;
+      margin-top: 18px;
+    }
+    &__title {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 700;
+      color: $main-color;
+    }
+    &__descr {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: center;
+      color: #3a3a3a;
+    }
+    }
+
+  &__wrapper {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    &_2 {
+      margin-top: 26px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  img {
+    width: 51px;
+    height: 57px;
+    margin: 0 auto;
+  }
+}

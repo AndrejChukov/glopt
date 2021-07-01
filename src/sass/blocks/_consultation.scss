@@ -1,0 +1,16 @@
+.consultation {
+  padding-bottom: 58px;
+  &_questions {
+    height: 438px;
+    padding-top: 62px;
+    background: url("../../img/fon4.jpg");
+    &__subtitle {
+      transform: translateY(-13px);
+      font-size: 14px;
+      font-weight: normal;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+  }
+}

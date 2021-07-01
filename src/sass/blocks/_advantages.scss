@@ -1,11 +1,6 @@
 .advantages {
   padding-bottom: 57px;
-  hr {
-    width: 148px;
-    height: 1px;
-    background-color: $main-color;
-    border: none;
-  }
+
  &__subtitle{
    font-size: 21px;
    font-weight: 300;
@@ -26,7 +21,7 @@
     text-align: justify;
     color: #3a3a3a;
   }
-  &__item {
+  &-item {
     width: 360px;
     display: flex;
     flex-direction: column;

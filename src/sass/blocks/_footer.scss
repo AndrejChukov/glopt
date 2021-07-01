@@ -1,0 +1,69 @@
+.footer {
+    min-height: 201px;
+    background-color: #25333c;
+    &__logo {
+        width: 67px;
+        height: 71px;
+        margin-top: 24px;
+    }
+    &__phone {
+        display: inline-block;
+        transform: translate(236px, 24px);
+        &_call {
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: right;
+            color: #ffffff;
+        }
+        &_tel {
+            font-family: Roboto;
+            font-size: 19px;
+            font-weight: 700;
+            text-align: right;
+            color: #ffffff;
+            &:hover {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+    hr {
+    width: 1171px;
+    transform: translate(-16px, 34px);
+    opacity: 0.3;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 59px;
+    }
+    &__site {
+        margin-top: 2px;
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &__confidentiality {
+        font-size: 13px;
+        font-weight: 300;
+        color: $main-color;
+        margin-top: 2px;
+        margin-right: 248px;
+        text-decoration: underline;
+    }
+    &__create {
+        display: flex;
+        margin: 2px -18px;
+    }
+    &__create-site {
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &__logo_2 {
+        width: 30px;
+        height: 32px; 
+        transform: translate(10px, -6px);
+    }
+}

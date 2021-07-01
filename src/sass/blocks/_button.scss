@@ -21,4 +21,24 @@
     color: #ffffff;
     margin-top: 23px;
   }
+  &_mini {
+    transform: none;
+    margin: 0 auto;
+  }
+  &_submit {
+    margin-top: 30px;
+    transform: none;
+    margin: 0 auto;
+  }
+  &_questions {
+    width: 180px;
+    height: 45px;
+    transform: none;
+    margin: 0 auto;
+    margin-top: 18px;
+  }
+  &_footer {
+    margin-bottom: -63px;
+    transform: translate(979px,-58px);
+  }
 }

@@ -1,0 +1,16 @@
+.hr {
+  width: 148px;
+  height: 1px;
+  background-color: $main-color;
+  border: none;
+  &-white {
+    width: 384px;
+    transform: translate(-210px, -19px);
+    background-color: white;
+  }
+  &-white_2 {
+    width: 384px;
+    transform: translate(208px,-29px);
+    background-color: white;
+  }
+}

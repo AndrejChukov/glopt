@@ -1,7 +1,7 @@
 .promo {
 	position: relative;
     height: 680px;
-    background: url(../img/fon1.jpg) center (center/cover) no-repeat;
+    background: url(../../img/fon1.jpg) center (center/cover) no-repeat;
 	&__logo {
 		img{
 			width: 95px;
@@ -58,6 +58,10 @@
 			font-weight: 700;
 			color: #ffffff;
 			text-decoration: none;
+			&:hover {
+				text-decoration: none;
+				color: #ffffff;
+			}
 		}
 
 	}
@@ -81,14 +85,6 @@
 		font-weight: 400;
 		text-align: center;
 		color: #ffffff;
-	}
-	&__hr1 {
-		width: 384px;
-		transform: translate(-210px, -19px);
-	}
-	&__hr2 {
-		width: 384px;
-		transform: translate(208px,-29px);
 	}
 	&__circle {
 		height: 10px;

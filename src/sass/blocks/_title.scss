@@ -5,4 +5,34 @@
   text-align: center;
   color: #2e2e2e;
   text-transform: uppercase;
+  &_fw {
+    font-weight: 400;
+    font-size: 28px;
+    color: #3a3a3a;
+  }
+  &_comment {
+    margin-top: 0;
+    margin-bottom: 14px;
+  }
+  &_consultation_questions {
+    font-size: 19px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 896px;
+    height: 68px;
+    padding-top: 14px;
+    background-color: #25333c;
+    margin: 0 auto;
+    margin-bottom: -21px;
+  }
+  &_footer {    
+    display: inline-block;
+    margin-top: 54px;
+    transform: translate(-11px, 16px);
+    margin-left: 44px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+  }
 }
